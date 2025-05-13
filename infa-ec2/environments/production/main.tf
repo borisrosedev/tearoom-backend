@@ -5,8 +5,7 @@ module "sg" {
   vpc_id = var.vpc_id
   
   
-
-      ingress_rules = [
+  ingress_rules = [
     {
       description = "SSH from anywhere"
       from_port   = 22
@@ -22,7 +21,7 @@ module "sg" {
       cidr_blocks = ["0.0.0.0/0"]
     },
     {
-      description = "HTTP from anywhere"
+      description = "HTTPS from anywhere"
       from_port   = 443
       to_port     = 443
       protocol    = "tcp"

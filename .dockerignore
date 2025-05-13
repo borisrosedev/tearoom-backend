@@ -1,0 +1,4 @@
+infrastructure-ecs-eks/
+infrastructure-ec2-sg/
+.scannerwork/
+node_modules

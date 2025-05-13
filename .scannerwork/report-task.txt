@@ -1,0 +1,6 @@
+projectKey=tearoom-backend
+serverUrl=http://localhost:9000
+serverVersion=25.3.0.104237
+dashboardUrl=http://localhost:9000/dashboard?id=tearoom-backend
+ceTaskId=f75014a0-891b-4aac-8720-6991c2f0c449
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f75014a0-891b-4aac-8720-6991c2f0c449

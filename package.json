@@ -15,7 +15,6 @@
   "description": "```bash $ npx dotenv-vault@latest push $ npx dotenv-vault@latest pull ```",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "node --watch server.js",
     "format:write": "prettier . --write"
